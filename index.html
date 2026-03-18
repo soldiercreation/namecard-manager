@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI名刺管理ドライブ | iOSアプリ紹介</title>
+    <meta
+      name="description"
+      content="AI名刺管理ドライブは、名刺画像をAIで解析し、Google Drive/スプレッドシートへ整理保存できるiOSアプリです。"
+    />
+    <link rel="icon" type="image/png" href="./assets/header-logo.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="AI名刺管理ドライブ トップへ">
+          <img src="./assets/header-logo.png" alt="AI名刺管理ドライブ ロゴ" class="brand-icon" />
+          <span class="brand-text">AI名刺管理ドライブ</span>
+        </a>
+        <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="global-nav">MENU</button>
+        <nav class="global-nav" id="global-nav">
+          <a href="#features">特徴</a>
+          <a href="#flow">使い方</a>
+          <a href="#security">安心設計</a>
+          <a href="contact.html" class="contact-link">お問い合わせ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <h1>名刺管理を、<br />毎日の業務フローに。</h1>
+            <p>
+              AI名刺管理ドライブは、名刺画像の情報抽出から整理、検索までを1つにまとめたiOSアプリです。
+              Google Drive・スプレッドシート連携で、あなたの管理資産として運用できます。
+            </p>
+            <div class="hero-actions">
+              <a href="#features" class="btn btn-primary">主な機能を見る</a>
+              <a href="contact.html" class="btn btn-secondary">お問い合わせ（準備中）</a>
+            </div>
+          </div>
+          <div class="hero-preview reveal">
+            <div class="hero-visual" role="img" aria-label="名刺管理アプリの動作イメージ">
+              <svg viewBox="0 0 520 240" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#ffffff" />
+                    <stop offset="100%" stop-color="#f2f7ff" />
+                  </linearGradient>
+                  <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#eef4fb" />
+                    <stop offset="100%" stop-color="#ffffff" />
+                  </linearGradient>
+                </defs>
+                <rect x="12" y="18" width="320" height="204" rx="28" fill="url(#panel)" stroke="#d7e3f2" stroke-width="2" />
+                <rect x="30" y="38" width="284" height="168" rx="18" fill="url(#screen)" stroke="#d7e3f2" />
+                <rect x="50" y="58" width="120" height="14" rx="7" fill="#7a6ae6" opacity="0.85" />
+                <rect x="50" y="84" width="180" height="10" rx="5" fill="#9aabc0" opacity="0.75" />
+                <rect x="50" y="102" width="210" height="10" rx="5" fill="#9aabc0" opacity="0.6" />
+                <rect x="50" y="128" width="68" height="40" rx="10" fill="#7a6ae6" opacity="0.2" />
+                <rect x="126" y="128" width="68" height="40" rx="10" fill="#7a6ae6" opacity="0.18" />
+                <rect x="202" y="128" width="68" height="40" rx="10" fill="#7a6ae6" opacity="0.14" />
+                <circle cx="386" cy="84" r="44" fill="#7a6ae6" opacity="0.15" />
+                <circle cx="452" cy="66" r="30" fill="#f6e5da" />
+                <rect x="360" y="130" width="126" height="56" rx="18" fill="#ffffff" stroke="#d7e3f2" />
+                <rect x="378" y="148" width="90" height="10" rx="5" fill="#7a6ae6" opacity="0.75" />
+              </svg>
+            </div>
+            <div class="preview-card">
+              <p class="preview-title">アプリの特徴</p>
+              <ul>
+                <li>名刺画像をAIで自動解析</li>
+                <li>Google Driveへ画像保存</li>
+                <li>スプレッドシートへ項目管理</li>
+                <li>タグ管理と高速検索</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <h2 class="section-title reveal">主な機能</h2>
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <h3>AI名刺解析</h3>
+              <p>名刺画像を読み取り、氏名・会社名・連絡先などをフォームへ自動反映。入力時間を短縮します。</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>Google Drive保存</h3>
+              <p>画像をDriveフォルダに保存。端末依存を減らし、データを継続的に活用できます。</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>スプレッドシート連携</h3>
+              <p>名刺データを構造化して記録。検索・共有・二次利用しやすい形で管理できます。</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>タグ管理</h3>
+              <p>業界・案件・地域など任意タグで分類。あとから欲しい連絡先を素早く見つけられます。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="flow" class="section section-soft">
+        <div class="container">
+          <h2 class="section-title reveal">利用の流れ</h2>
+          <ol class="flow-list">
+            <li class="reveal">
+              <span class="step">1</span>
+              <div>
+                <h3>Googleアカウントを接続</h3>
+                <p>アプリの設定画面からGoogle認証を行い、保存先を選択します。</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="step">2</span>
+              <div>
+                <h3>名刺画像を登録</h3>
+                <p>カメラや写真から名刺を追加し、必要に応じてAI解析を実行します。</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="step">3</span>
+              <div>
+                <h3>タグで整理して活用</h3>
+                <p>タグと検索で情報にすぐ到達。日々の営業・連絡業務に活かせます。</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="security" class="section">
+        <div class="container security-wrap reveal">
+          <h2 class="section-title">安心設計</h2>
+          <ul>
+            <li>法的情報への同意フローを実装し、利用前確認を明確化</li>
+            <li>Google連携先（Drive/Sheets）をユーザー自身で選択可能</li>
+            <li>運用ルールやガイドをアプリ内で確認可能</li>
+          </ul>
+          <a href="contact.html" class="inline-link">導入や機能のご相談はこちら（準備中）</a>
+        </div>
+      </section>
+
+      <section class="section section-soft">
+        <div class="container faq-wrap">
+          <h2 class="section-title reveal">よくある質問</h2>
+          <div class="faq-item reveal">
+            <button class="faq-question" type="button">AI解析は必須ですか？</button>
+            <div class="faq-answer">
+              <p>必須ではありません。APIキー未設定でも手入力で名刺登録できます。</p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question" type="button">データ保存先はどこですか？</button>
+            <div class="faq-answer">
+              <p>名刺画像はGoogle Drive、項目データはGoogleスプレッドシートへの保存設計です。</p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question" type="button">問い合わせフォームはありますか？</button>
+            <div class="faq-answer">
+              <p>現在準備中です。下記のダミーリンクを後日正式フォームへ差し替え予定です。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-cta">
+        <div class="container reveal">
+          <h2>アプリに関するお問い合わせ</h2>
+          <p>導入や仕様に関するご相談は、フォーム公開後にこちらから受け付けます。</p>
+          <a href="contact.html" class="btn btn-primary">お問い合わせフォーム（ダミー）</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© AI名刺管理ドライブ</p>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
